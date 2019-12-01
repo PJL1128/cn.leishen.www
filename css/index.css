@@ -39,6 +39,7 @@
     width: 100%;
     height: 190px;
     background-color: #141414;
+    border-bottom: 1px solid #05b7bb;
 }
 
 .searchnav-service{
@@ -87,11 +88,31 @@
 
 
     /* 第三部分 */
-    .tab{
-        margin-top: -35px;
-        font-size: 19px;
+
+.three-part{
+    position: relative;
+    width: 100%;
+    height: 575px;
+}
+
+    .three-part img{
+        width: 100%;
+        height: 575px;
+        /* background-image: url(../upload/ad1.png); */
+        /* background-repeat: no-repeat; */
     }
-    
+
+    .three-part.tab{
+         position: absolute;
+        float: left;
+        top: 0;
+        right: 0;
+    }
+
+    .tab{
+        margin-top: -630px;
+    }
+
     .first{
         margin-left: 338px;
     }
@@ -99,4 +120,25 @@
     .tab a{
         margin-right: 34px;
         color: #999999;
+        font-size: 19px;
+    }
+
+    .three-part ul{
+        width: 234px;
+        height: 623px;
+        background-color: rgba(225, 225, 225, 0.6)
+    }
+
+    .three-part li{
+        width: 292px;
+        height: 47px;
+        font-size: 18px;
+        margin-left: 37px;
+        color: #fff;
+        margin-bottom: 15px;
+        
+    }
+
+    .quanbufenlei{
+        background-color: #00eef3;
     }
