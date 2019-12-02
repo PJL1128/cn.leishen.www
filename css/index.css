@@ -23,23 +23,27 @@
 }
 
 .topnav-right .cart{
+    display: inline-block;
     width: 120px;
     height: 50px;
     background-color: #424242;
-    display: inline-block;
     text-align: center;
     line-height: 50px;
+    margin-left: 19px;
 }
 
 .topnav-right i{
     color: #b0b0b0;
+    font-size: 20px;
 }
+
+
+/* 搜索部分 */
 
 .searchnav{
     width: 100%;
-    height: 190px;
+    height: 140px;
     background-color: #141414;
-    border-bottom: 1px solid #05b7bb;
 }
 
 .searchnav-service{
@@ -51,94 +55,126 @@
 
     .searchnav-service input{
     width: 525px;
-    height: 50px;
+    height: 56px;
     border: 1px solid #373737;
     box-sizing: border-box;
     background-color: #141414;
     }
 
     .searchnav-service i{
-    width: 60px;
-    height: 50px;
-    display: inline-block;
-    background-color: #000000;
-    padding-top: -26px;
-    line-height: 45px;
-    border: 1px solid #373737;
-    box-sizing: border-box;
-    color: #b0b0b0;
+        display: inline-block;
+        width: 60px;
+        height: 54px;
+        background-color: #000000;
+        border: 1px solid #373737;
+        color: #b0b0b0;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 700;
     }
 
-     .searchnav-search-hotkeys{
-        position: absolute;
-        height: 18px;
-        top:50%;
-        margin-top: -9px;
-        line-height: 18px;
-        right: 51px;
+    .searchnav-search-hotkeys a{
+        color: #b0b0b0;
+        float: left;
+        font-size: 16px;
+        background-color: #373737;
+        margin-right: 10px;
     }
     
-    .searchnav-search-hotkeys span{
-    
-        background-color: #eeeeee;
-        color: #757575;
-        margin-right: 10px;
-        padding: 4px 6px;
+    .searchnav-search-hotkeys{
+        position: absolute;
+        top: 16px;
+        left: 275px;
     }
 
 
     /* 第三部分 */
 
-.three-part{
-    position: relative;
-    width: 100%;
-    height: 575px;
-}
-
-    .three-part img{
-        width: 100%;
-        height: 575px;
-        /* background-image: url(../upload/ad1.png); */
-        /* background-repeat: no-repeat; */
-    }
-
-    .three-part.tab{
-         position: absolute;
-        float: left;
-        top: 0;
-        right: 0;
-    }
-
-    .tab{
-        margin-top: -630px;
-    }
-
-    .first{
-        margin-left: 338px;
-    }
-
-    .tab a{
-        margin-right: 34px;
-        color: #999999;
-        font-size: 19px;
-    }
-
-    .three-part ul{
-        width: 234px;
-        height: 623px;
-        background-color: rgba(225, 225, 225, 0.6)
-    }
-
-    .three-part li{
-        width: 292px;
+    .three-part{
         height: 47px;
-        font-size: 18px;
-        margin-left: 37px;
-        color: #fff;
-        margin-bottom: 15px;
-        
+        background-color: #141414;
     }
 
     .quanbufenlei{
+        float: left;
+        height: 47px;
+        width: 234px;
         background-color: #00eef3;
+        line-height: 47px;
+        padding-left: 37px;
+        
+    }
+
+    .three-part img{
+        margin-left: 115px;
+    }
+
+    .three-part a{
+        color: #999999;
+        font-size: 20px;
+    }
+
+    .three-part .tab{
+        float: left;
+        height: 47px;
+        line-height: 47px;
+    }
+
+    .three-part .first{
+        margin-left: 45px;
+    }
+
+    .tab a{
+        margin-right: 32px;
+    }
+
+    
+    /* 第四部分 */
+    .four-part{
+        position: relative;
+    }
+
+    .four-part img{
+        width: 100%;
+        height: 688.8px;
+        border: 1px solid #1f6566;
+    }
+
+    .four-part ul{
+        position: absolute;
+        width: 234px;
+        height: 664px;
+        top: 0px;
+        left: 186px;
+        padding-left: 37px;
+        background-color: #274848;
+        padding-top: 24px;
+        border: 1px solid #0bbec0;
+    }
+
+    .four-part li{
+        font-size: 20px;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+
+    .four-part span{
+        float: right;
+        font-weight: 600;
+        color: #b0bcbd;
+        margin-right: 30px;
+    }
+
+    .five-part{
+        height: 211px;
+    }
+
+    .service{
+        width: 291px;
+        height: 213px;
+    }
+
+    .ad img{
+        width: 394px;
+        height: 211px;
     }
