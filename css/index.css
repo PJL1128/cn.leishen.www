@@ -14,7 +14,7 @@
 
 .topnav span{
     color: #322a27;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 .topnav-right{
@@ -30,12 +30,12 @@
     text-align: center;
     line-height: 50px;
     margin-left: 19px;
-}
+} 
 
 .topnav-right i{
     color: #b0b0b0;
     font-size: 20px;
-}
+} 
 
 
 /* 搜索部分 */
@@ -85,7 +85,8 @@
         position: absolute;
         top: 16px;
         left: 275px;
-    }
+    } 
+
 
 
     /* 第三部分 */
@@ -101,21 +102,21 @@
         width: 234px;
         background-color: #00eef3;
         line-height: 47px;
-        padding-left: 37px;
-        
+        padding-left: 30px;
+        font-size: 18px;
+        box-sizing: border-box;
     }
 
     .three-part img{
-        margin-left: 115px;
+        margin-left: 82px;
     }
 
     .three-part a{
         color: #999999;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .three-part .tab{
-        float: left;
         height: 47px;
         line-height: 47px;
     }
@@ -125,36 +126,38 @@
     }
 
     .tab a{
-        margin-right: 32px;
+        margin-right: 24px;
     }
 
     
     /* 第四部分 */
-    .four-part{
+     
+    .four-part{   
         position: relative;
     }
 
     .four-part img{
-        width: 100%;
-        height: 688.8px;
-        border: 1px solid #1f6566;
+        width: 1920px;
+        height: 460px;
+        border-top: 1px solid #00eef3;
     }
 
     .four-part ul{
         position: absolute;
         width: 234px;
-        height: 664px;
+        height: 460px;
         top: 0px;
-        left: 186px;
-        padding-left: 37px;
-        background-color: #274848;
-        padding-top: 24px;
-        border: 1px solid #0bbec0;
+        left: 339px;
+        padding-left: 30px;
+        background-color: #000;
+        opacity: 0.8;
+        padding-top: 20px;
+        box-sizing: border-box;
     }
 
     .four-part li{
-        font-size: 20px;
-        margin-bottom: 50px;
+        font-size: 12px;
+        margin-bottom: 38px;
         color: #fff;
     }
 
@@ -165,16 +168,183 @@
         margin-right: 30px;
     }
 
+    .free{
+        margin-bottom: 25px;
+    }
+
+
+    /* 第五部分 */
     .five-part{
-        height: 211px;
+        height: 170px;
+        margin-top: 18px;
+        
     }
 
     .service{
-        width: 291px;
-        height: 213px;
+        float: left;
+        width: 234px;
+        height: 170px;
+        background-color: #00eef3;
     }
 
-    .ad img{
-        width: 394px;
-        height: 211px;
+    .ad{
+        float: right;
+        width: 977px;
+    }
+
+    .ad a{
+        float: left;
+        width: 316px;
+        height: 170px;
+    }
+
+    .paper{
+        float: left;
+        width: 316px;
+        height: 170px;
+        background-color: #333;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .ad a:first-child{
+        margin-right: 15px;
+    }
+
+    .paper{
+        margin-left: 13px;
+        border: 1px solid #d2d2d2;
+    }
+
+    .ad .one{
+        color: #00d7dc;
+        font-size: 16px;
+    }
+
+    .ad .two{
+        color: #cccccc;
+    }
+
+    .ad span{
+        color: #cccccc;
+    }
+
+    .ad .one{
+        display: inline-block;
+        margin-top: 16px;
+        margin-right: 194px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    .ad .three{
+        display: inline-block;
+        color: #00d7dc;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+
+
+    /* 热卖单品 */
+    .hot-goods{
+        height: 380px;
+    }
+
+    .hot-goods-title{
+        height: 50px;
+    }
+
+    .hot-goods-title h2{
+        float: left;
+        font-size: 21px;
+        line-height: 50px;
+        font-weight: lighter;
+        
+    }
+
+    .hot-goods-title span{
+        float: right;
+    }
+
+    .hot-goods-title-button{
+        margin-top: 17px;
+    }
+
+    .hot-goods-title-button .left{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        padding-right: 11px;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+    }
+
+    .hot-goods-title-button .right{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        padding-right: 11px;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+    }
+
+    .hot-goods-content{
+        float: left;
+        height: 340px;
+    }
+
+    .hot-goods-content a{
+        float: left;
+        width: 234px;
+        height: 340px;
+        text-align: center;
+    }
+    
+    .hot-goods-content a:nth-child(-n+4){
+        margin-right: 14px;
+    }
+
+    .hot-goods-content h4{
+        margin-bottom: 14px;
+    }
+
+    .hot-goods-content span{
+        color: #b0b0b0;
+    }
+
+    .hot-goods-content .organ{
+        border: 1px solid #f5f5f5;
+        border-top: 1px solid  #ffac13;
+        box-sizing: border-box;
+    }
+
+    .hot-goods-content .green{
+        border: 1px solid #f5f5f5;
+        border-top: 1px solid  #83c44e;
+        box-sizing: border-box;
+    }
+
+    .hot-goods-content .blue{
+        border: 1px solid #f5f5f5;
+        border-top: 1px solid  #2196f3;
+        box-sizing: border-box;
+    }
+
+    .hot-goods-content .red{
+        border: 1px solid #f5f5f5;
+        border-top: 1px solid  #e53935;
+        box-sizing: border-box;
+    }
+
+    .hot-goods-content .greenplus{
+        border: 1px solid #f5f5f5;
+        border-top: 1px solid #00c0a5;
+        box-sizing: border-box;
     }
