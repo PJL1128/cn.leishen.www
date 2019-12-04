@@ -246,9 +246,10 @@
 
 
 
-    /* 热卖单品 */
+    /* 6 热卖单品 */
     .hot-goods{
-        height: 380px;
+        height: 435 px;
+        margin-bottom: 40px;
     }
 
     .hot-goods-title{
@@ -347,4 +348,447 @@
         border: 1px solid #f5f5f5;
         border-top: 1px solid #00c0a5;
         box-sizing: border-box;
+    }
+
+
+
+
+    /* 游戏笔记本 */
+
+
+    .game-notebook{
+        background-color: #f5f5f5;
+        height: 738px;
+    }
+
+    .game-notebook-title h2{
+        margin-top: 80px;
+        font-size: 21px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .game-notebook-title-button{
+        float: right;
+        font-size: 15px;
+        margin-top: -40px;
+    }
+
+    .game-notebook-title a{
+        margin-right: 34px;
+    }
+
+    .dayuhao{
+        font-size: 15px;
+        border-radius: 50%;
+        background-color: #b0b0b0;
+        color: #fff;
+        padding: 1px 2px;
+        padding-left: 4px;
+        font-weight: 700;
+    }
+
+    .game-notebook-content{
+        height: 614px;
+    }
+
+    .game-notebook-content-left{
+        float: left;
+        width: 480px;
+        height: 614px;
+    }
+
+    .game-notebook-content-right {
+        float: left;
+        width: 744px;
+        height: 614px;
+    }
+
+    .game-notebook-content-right a{
+        float: left;
+        width: 234px;
+        height: 300px;
+        text-align: center;
+        background-color: #ffffff;
+        margin-left: 14px;
+    }
+
+    .game-notebook-content-right a:nth-child(-n+3){
+        margin-bottom: 14px;
+    }
+
+    .game-notebook-content-right h4{
+        color: #8c8c8c;
+        margin-bottom: 13px;
+    }
+
+    .game-notebook-content-right p{
+        color: #b0b0b0;
+        margin-bottom: 15px;
+    }
+
+    .game-notebook-content-right small{
+        font-size: 11px;
+        color: #00bcbf;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .game-notebook-content-right span{
+        color: #b0b0b0;
+    }
+
+
+
+    /* 8. 游戏台式机 */
+    .game-desktop{
+        background-color: #f5f5f5;
+        height: 685px;
+    }
+
+    .game-desktop-title h2{
+        padding-top: 34px;
+        font-size: 21px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .game-desktop-title-button{
+        float: right;
+        font-size: 15px;
+        margin-top: -40px;
+    }
+
+    .game-desktop-title a{
+        margin-right: 34px;
+    }
+
+    .game-desktop-content-left{
+        float: left;
+        width: 480px;
+        height: 614px;
+    }
+
+    .game-desktop-content-left a{
+        float: left;
+        width: 480px;
+        height: 300px;
+    }
+
+    .game-desktop-content-left a:first-child{
+        margin-bottom: 14px;
+    }
+
+    .game-desktop-content-right {
+        float: right;
+        width: 744px;
+        height: 614px;
+    }
+
+    .game-desktop-content-right a{
+        float: left;
+        width: 234px;
+        height: 300px;
+        text-align: center;
+        background-color: #ffffff;
+        margin-left: 14px;
+    }
+
+    .game-desktop-content-right a:nth-child(-n+3){
+        margin-bottom: 14px;
+    } 
+
+    .game-desktop-content-right h4{
+        color: #8c8c8c;
+        margin-bottom: 13px;
+    }
+
+    .game-desktop-content-right p{
+        color: #b0b0b0;
+        margin-bottom: 15px;
+    }
+
+    .game-desktop-content-right small{
+        font-size: 11px;
+        color: #00bcbf;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .game-desktop-content-right span{
+        color: #b0b0b0;
+    }
+
+
+
+
+    /* 外设系列 */
+    .peripherals-series{
+        background-color: #f5f5f5;
+        height: 685px;
+    }
+
+    .peripherals-series-title h2{
+        padding-top: 34px;
+        font-size: 21px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .peripherals-series-title-button{
+        float: right;
+        font-size: 15px;
+        margin-top: -40px;
+    }
+
+    .peripherals-series-title a{
+        margin-right: 34px;
+    }
+
+    .peripherals-series-content-left{
+        float: left;
+        width: 480px;
+        height: 614px;
+    }
+
+    .peripherals-series-content-left a{
+        float: left;
+        width: 480px;
+        height: 300px;
+    }
+
+    .peripherals-series-content-left a:first-child{
+        margin-bottom: 14px;
+    }
+
+    .peripherals-series-content-right {
+        float: right;
+        width: 744px;
+        height: 614px;
+    }
+
+    .peripherals-series-content-right a{
+        float: left;
+        width: 234px;
+        height: 300px;
+        text-align: center;
+        background-color: #ffffff;
+        margin-left: 14px;
+    }
+
+    .peripherals-series-content-right a:nth-child(-n+3){
+        margin-bottom: 14px;
+    } 
+
+    .peripherals-series-content-right h4{
+        color: #8c8c8c;
+        margin-bottom: 13px;
+    }
+
+    .peripherals-series-content-right p{
+        color: #b0b0b0;
+        margin-bottom: 15px;
+    }
+
+    .peripherals-series-content-right small{
+        font-size: 11px;
+        color: #00bcbf;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .peripherals-series-content-right span{
+        color: #b0b0b0;
+    }
+
+
+
+
+    /* 增值服务 */
+    .value-added-services{
+        background-color: #f5f5f5;
+        height: 360px;;
+    }
+
+    .value-added-services-title h2{
+        padding-top: 34px;
+        font-size: 21px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .value-added-services-title-button{
+        margin-top: 17px;
+    }
+
+    .value-added-services-title-button .left{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+        text-align: center;
+        margin-right: 0px;
+        margin-top: -44px;
+    }
+
+    .value-added-services-title-button .right{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+        text-align: center;
+        margin-right: 0px;
+        margin-top: -44px;
+        margin-right: 35px;
+    }
+
+    .value-added-services-title a{
+        margin-right: 34px;
+    }
+
+    .value-added-services-content{
+        float: left;
+        height: 300px;
+    }
+
+    .value-added-services-content a{
+        float: left;
+        width: 232px;
+        height: 282px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .value-added-services-content a:nth-child(-n+4){
+        margin-right: 16px;
+    }
+
+    .value-added-services-content img{
+        width: 160px;
+        height: 160px;
+        margin-top: 39px;
+    }
+
+    .value-added-services-content h4{
+        color: #8c8c8c;
+        margin-top: 25px;
+    }
+
+    .value-added-services-content span{
+        display: block;
+        color: #00bcbf;
+        margin-top: 16px;
+    }
+
+
+
+
+
+
+    /* 热评产品 */
+
+    .hot-product{
+        height: 440px;
+        background-color: #f5f5f5;
+    }
+
+    .hot-product-title h2{
+        height: 60px;
+        font-weight: lighter;
+        font-size: 21px;
+    }
+
+    .hot-product-content{
+        float: left;
+        height: 380px;
+    }
+
+    .hot-product-content a{
+        float: left;
+        width: 296px;
+        height: 380px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .hot-product-content a:nth-child(-n+3){
+        margin-right: 14px;
+    }
+
+    
+
+
+
+    /* 粉丝同城会 */
+    .fan-meeting{
+        height: 318px;
+    }
+
+    .hot-goods-title{
+        height: 50px;
+    }
+
+    .fan-meeting-title h2{
+        float: left;
+        font-size: 21px;
+        line-height: 50px;
+        font-weight: lighter;
+        
+    }
+
+    .fan-meeting-title span{
+        float: right;
+    }
+
+
+    .fan-meeting-title-button{
+        margin-top: 17px;
+    }
+
+    .fan-meeting-title-button .left{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        padding-right: 11px;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+    }
+
+    .fan-meeting-title-button .right{
+        float: right;
+        width: 36px;
+        line-height: 24px;
+        border: 1px solid #e0e0e0;
+        padding-right: 11px;
+        box-sizing: border-box;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e0e0e0;
+    }
+
+    .fan-meeting-content{
+        float: left;
+        height: 260px;
+    }
+
+    .fan-meeting-content a{
+        float: left;
+        width: 296px;
+        height: 260px;
+    }
+
+    .fan-meeting-content img{
+        width: 296px;
+        height: 180px;
     }
