@@ -187,6 +187,14 @@
         background-color: #00eef3;
     }
 
+    .service a{
+        font-size: 18spx;
+    }
+
+    .service i{
+        font-size: 20px;
+    }
+
     .ad{
         float: right;
         width: 977px;
@@ -716,12 +724,26 @@
         width: 296px;
         height: 380px;
         background-color: #fff;
-        text-align: center;
+        padding: 0 53px;
+        box-sizing: border-box;
     }
 
     .hot-product-content a:nth-child(-n+3){
         margin-right: 14px;
     }
+
+    .hot-product-content small{
+        display: inline-block;
+        margin-bottom: 35px;
+        margin-top: 50px;
+    }
+
+    .hot-product-content .pingjia{
+        display: inline-block;
+        margin-bottom: 22px;
+    }
+
+    
 
     
 
@@ -730,10 +752,11 @@
     /* 粉丝同城会 */
     .fan-meeting{
         height: 318px;
+        background-color: #f5f5f5;
     }
 
-    .hot-goods-title{
-        height: 50px;
+    .fan-meeting-title{
+        height: 58px;
     }
 
     .fan-meeting-title h2{
@@ -750,7 +773,7 @@
 
 
     .fan-meeting-title-button{
-        margin-top: 17px;
+        padding-top: 17px;
     }
 
     .fan-meeting-title-button .left{
@@ -786,9 +809,248 @@
         float: left;
         width: 296px;
         height: 260px;
+        background-color: #fff;
+    }
+
+    .fan-meeting-content a:nth-child(-n+3){
+        margin-right: 13px;
     }
 
     .fan-meeting-content img{
         width: 296px;
         height: 180px;
     }
+
+    .fan-meeting-content h2{
+        text-align: center;
+        color: #b0b0b0;
+        margin-top: 33px;
+        font-size: 15px;
+    }
+
+
+
+
+    /* 品牌视频专区 */
+    .video{
+        height: 370px;
+        background-color: #f5f5f5;
+    }
+
+    .video-title{
+        height: 71px;
+    }
+
+    .video-title h2{
+        padding-top: 34px;
+        font-size: 21px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .video-title-button{
+        float: right;
+        font-size: 15px;
+        margin-top: -40px;
+    }
+
+    .video-content img{
+        width: 296px;
+        height: 180px;
+    }
+
+    .video-content{
+        float: left;
+    }
+
+    .video-content-movie{
+        position: relative;
+        float: left;
+        height: 285px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .video-content-movie:nth-child(-n+3){
+        margin-right: 14px;
+    }
+
+    .video-content-movie p{
+        margin-top: 33px;
+        margin-bottom: 16px;
+        color: #8c8c8c;
+    }
+
+    .video-content-movie span{
+        color: #b0b0b0;
+    }
+
+    .video-content-movie i{
+        position: absolute;
+        width: 54px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 23px;
+        color: #fff;
+        border-radius: 20%;
+        top: 70px;
+        left: 120px;;
+        background-color: #333;
+        opacity: 0.8;
+        border: 2px solid #fff;
+    }
+
+
+
+
+
+
+
+/* 售后 */
+.sale-service {
+    height: 80px;
+    background-color: #272727;
+    border-bottom: 1px solid #373737;
+    box-sizing: border-box;
+    margin-top: 14px;
+  }
+
+  .sale-service-main{
+    height: 80px;
+    padding:  27px 0;
+    box-sizing: border-box ;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .sale--service-main a{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    line-height: 80px;
+  }
+  
+    .sale--service-main .first{
+        margin-left: 62px;
+    }
+
+  .sale--service-main i{
+      font-size: 20px;
+      vertical-align: middle;
+  }
+
+  .sale--service-main .shuxian{
+      color: #373737;
+  }
+  
+  .sale--service-main span{
+    font-size: 15px;
+    margin-right: 55px;
+  }
+
+
+
+  /* 其他 */
+  .other {
+    padding: 40px 0;
+    background-color: #272727;
+  }
+  
+  .other-service {
+    float: left;
+  }
+  
+  .other-service dl {
+    float: left;
+    margin-right: 50px;
+    color: #999999;
+  }
+  
+  .other-service dt {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 28px;
+  }
+  
+  .other-service dd {
+    font-size: 12px;
+    line-height: 28px;
+    color: #999999;
+  }
+
+  .other-service a{
+      color: #999999;
+  }
+
+  .other-service img{
+      width: 70px;
+      height: 70px;
+  }
+
+  .other-service .tupian{
+      width: 80px;
+      height: 80px;
+  }
+
+  .other-service .saoyisao{
+      width: 90px;
+      height: 90px;
+      
+  }
+
+  .other-service .fuwuxiang{
+      margin-right: 34px;
+  }
+
+
+  .other-service .shouhou{
+      width: 100px;
+      height: 120px;
+      margin-left: 50px;
+  }
+
+
+
+  /* 底部 */
+  .footer{
+      height: 80px;
+      background-color: #141414;
+  }
+
+  .footer-picture{
+     float: right;
+     margin-top: -30px;
+  }
+
+  .footer-link a,
+  .footer-licence span{
+      color: #999999;
+  }
+
+  .footer-link{
+      margin-top: 27px;
+      margin-bottom: 6px;
+  }
+
+  .footer-link a{
+      float: left;
+  }
+
+  .footer-link .shuxian{
+      margin: 0 8px;
+  }
+
+  .footer-picture img{
+      width: 68px;
+      height: 26px;
+  }
+
+  .footer-picture .yinyezhizhao{
+      width: 91px;
+      height: 26px;
+      border: 1px solid #e4e4e4;
+  }
+
+  .footer-picture a{
+      margin-right: 26px;
+  }
