@@ -1,0 +1,282 @@
+/* 顶部导航 */
+.topnav{
+    height: 50px;
+    background-color: #272727;
+}
+
+.topnav-left{
+    line-height: 50px;
+}
+
+.topnav a{
+    color: #999999;
+}
+
+.topnav span{
+    color: #322a27;
+    padding: 0 8px;
+}
+
+.topnav-right{
+    float: right;
+    margin-top: -50px;
+}
+
+.topnav-right .cart{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: #424242;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 19px;
+} 
+
+.topnav-right i{
+    color: #b0b0b0;
+    font-size: 20px;
+} 
+
+
+/* 搜索部分 */
+
+.searchnav{
+    width: 100%;
+    height: 140px;
+    background-color: #141414;
+}
+
+.searchnav-service{
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    font-size: 0;
+    }
+
+    .searchnav-service input{
+    width: 525px;
+    height: 56px;
+    border: 1px solid #373737;
+    box-sizing: border-box;
+    background-color: #141414;
+    }
+
+    .searchnav-service i{
+        display: inline-block;
+        width: 60px;
+        height: 54px;
+        background-color: #000000;
+        border: 1px solid #373737;
+        color: #b0b0b0;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .searchnav-search-hotkeys a{
+        color: #b0b0b0;
+        float: left;
+        font-size: 16px;
+        background-color: #373737;
+        margin-right: 10px;
+    }
+    
+    .searchnav-search-hotkeys{
+        position: absolute;
+        top: 16px;
+        left: 275px;
+    } 
+
+
+
+    /* 第三部分 */
+
+    .three-part{
+        height: 47px;
+        background-color: #141414;
+    }
+
+    .quanbufenlei{
+        float: left;
+        height: 47px;
+        width: 234px;
+        background-color: #00eef3;
+        line-height: 47px;
+        padding-left: 30px;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    .three-part img{
+        margin-left: 82px;
+    }
+
+    .three-part a{
+        color: #999999;
+        font-size: 16px;
+    }
+
+    .three-part .tab{
+        float: left;
+        height: 47px;
+        line-height: 47px;
+    }
+
+    .three-part .first{
+        margin-left: 45px;
+    }
+
+    .tab a{
+        margin-right: 24px;
+    }
+
+
+
+    /* 4. C位广告 */
+    .four-part-ad  .first{
+        height: 833px;
+        border-top: 1px solid #00EEF3;
+    }
+
+    .four-part-ad img{
+        margin-top: -3px;
+    }
+
+    
+    /* 售后 */
+.sale-service {
+    height: 80px;
+    background-color: #272727;
+    border-bottom: 1px solid #373737;
+    box-sizing: border-box;
+    margin-top: 14px;
+  }
+
+  .sale-service-main{
+    height: 80px;
+    padding:  27px 0;
+    box-sizing: border-box ;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .sale--service-main a{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    line-height: 80px;
+  }
+  
+    .sale--service-main .first{
+        margin-left: 62px;
+    }
+
+  .sale--service-main i{
+      font-size: 20px;
+      vertical-align: middle;
+  }
+
+  .sale--service-main .shuxian{
+      color: #373737;
+  }
+  
+  .sale--service-main span{
+    font-size: 15px;
+    margin-right: 55px;
+  }
+
+
+
+  /* 其他 */
+  .other {
+    padding: 40px 0;
+    background-color: #272727;
+  }
+  
+  .other-service {
+    float: left;
+  }
+  
+  .other-service dl {
+    float: left;
+    margin-right: 50px;
+    color: #999999;
+  }
+  
+  .other-service dt {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 28px;
+  }
+  
+  .other-service dd {
+    font-size: 12px;
+    line-height: 28px;
+    color: #999999;
+  }
+
+  .other-service a{
+      color: #999999;
+  }
+
+  .other-service img{
+      width: 70px;
+      height: 70px;
+  }
+
+  .other-service .tupian{
+      width: 80px;
+      height: 80px;
+  }
+
+  .other-service .saoyisao{
+      width: 90px;
+      height: 90px;
+      
+  }
+
+  .other-service .fuwuxiang{
+      margin-right: 34px;
+  }
+
+
+  .other-service .shouhou{
+      width: 100px;
+      height: 120px;
+      margin-left: 50px;
+  }
+
+
+
+  /* 底部 */
+  .footer{
+      height: 80px;
+      background-color: #141414;
+  }
+
+  .footer-picture{
+     float: right;
+     margin-top: -30px;
+  }
+
+  .footer-licence span{
+    display: inline-block;
+    color: #999999;
+    margin-top: 30px;
+  }
+
+  .footer-picture img{
+      width: 68px;
+      height: 26px;
+  }
+
+  .footer-picture .yinyezhizhao{
+      width: 91px;
+      height: 26px;
+      border: 1px solid #e4e4e4;
+  }
+
+  .footer-picture a{
+      margin-right: 26px;
+      line-height: 80px;
+  }

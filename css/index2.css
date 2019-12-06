@@ -1,0 +1,174 @@
+/* 顶部导航 */
+.topnav{
+    width: 100%;
+    height: 75px;
+    background-color: #272727;
+}
+
+.topnav-content{
+    height: 75px;
+    padding-left: 20px;
+}
+
+.topnav img{
+    float: left;
+    margin-left: 100px;
+}
+
+.topnav a{
+    float: left;
+    width: 125px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #fff;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
+/* 图片部分 */
+.four-part{
+    height: 470px;
+}
+
+.news-center-left{
+    float: left;
+    position: relative;
+}
+
+.picture-part .one{
+    margin-top: -3px;
+}
+
+.news-center-left img{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.news-center-left .first{
+    float: left;
+}
+
+.news-center-left .first h1{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    font-size: 28px;
+    color: #56616b;
+    font-weight: 400;
+}
+
+.news-center-left .first h2{
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    font-size: 18px;
+    color: #6a7884;
+    font-weight: 400;
+}
+
+.news-center-left .second h1{
+    position: absolute;
+    top: 70px;
+    left: 435px;
+    font-size: 28px;
+    color: #56616b;
+    font-weight: 400;
+}
+
+.news-center-left .second h2{
+    position: absolute;
+    top: 115px;
+    left: 435px;
+    font-size: 18px;
+    color: #6a7884;
+    font-weight: 400;
+}
+
+.news-center-right{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 370px;
+    height: 195px;
+}
+
+.news-center-right h3{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #7A7F81;
+}
+
+.news-center-right .black{
+    display: inline-block;
+    margin-top: 5px;
+    color: #666666;
+}
+
+.news-center-right a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.four-part{
+    margin-top: 40px;
+}
+
+.four-part-left{
+    float: left;
+}
+
+.four-part-left img{
+    float: left;
+    width: 670px;
+    height: 470px;
+}
+
+.four-part-right{
+    margin-right: 20px;
+    margin-bottom: 13px;
+    height: 450px;
+}
+
+.four-part-right img{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* 底部 */
+.footer{
+    height: 110px;
+    background-color: #000;
+    margin-top: 16px;
+}
+
+.footer-content{
+    margin-left: 300px;
+    padding-top: 35px;
+}
+
+.footer-content a{
+    color: #ccc;
+    font-size: 16px;
+    width: 100px;
+    padding: 4px 18px;
+}
+
+.footer-content h1{
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: 400;
+    margin-left: 160px;
+    color: #ccc;
+}
+
+   
+    

@@ -180,27 +180,41 @@
         
     }
 
-    .service{
+    .five-part-service{
         float: left;
         width: 234px;
         height: 170px;
         background-color: #00eef3;
     }
 
-    .service a{
-        font-size: 18spx;
+    .five-part-service a{
+        font-size: 18px;
+        float: left;
+        width: 105px;
+        height: 76px;
+        text-align: center;
     }
 
-    .service i{
+    .five-part-service i {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        width: 24px;
         font-size: 20px;
     }
 
-    .ad{
+    .five-part-span{
+        display: block;
+        margin-bottom: 17px;
+        font-size: 13px;
+    }
+
+    .five-part-ad{
         float: right;
         width: 977px;
     }
 
-    .ad a{
+    .five-part-ad a{
         float: left;
         width: 316px;
         height: 170px;
@@ -215,7 +229,7 @@
         box-sizing: border-box;
     }
 
-    .ad a:first-child{
+    .five-part-ad a:first-child{
         margin-right: 15px;
     }
 
@@ -224,20 +238,20 @@
         border: 1px solid #d2d2d2;
     }
 
-    .ad .one{
+    .five-part-ad .one{
         color: #00d7dc;
         font-size: 16px;
     }
 
-    .ad .two{
+    .five-part-ad .two{
         color: #cccccc;
     }
 
-    .ad span{
+    .five-part-ad span{
         color: #cccccc;
     }
 
-    .ad .one{
+    .five-part-ad .one{
         display: inline-block;
         margin-top: 16px;
         margin-right: 194px;
@@ -245,7 +259,7 @@
         margin-bottom: 15px;
     }
 
-    .ad .three{
+    .five-part-ad .three{
         display: inline-block;
         color: #00d7dc;
         font-size: 13px;
