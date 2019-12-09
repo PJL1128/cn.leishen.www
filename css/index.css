@@ -12,6 +12,10 @@
     color: #999999;
 }
 
+.topnav a:hover{
+    color: #00eef3;
+}
+
 .topnav span{
     color: #322a27;
     padding: 0 8px;
@@ -36,6 +40,10 @@
     color: #b0b0b0;
     font-size: 20px;
 } 
+
+.topnav-right i:hover{
+    color: #00eef3;
+}
 
 
 /* 搜索部分 */
@@ -116,6 +124,10 @@
         font-size: 16px;
     }
 
+    .three-part a:hover{
+        color: #00eef3;
+    }
+
     .three-part .tab{
         height: 47px;
         line-height: 47px;
@@ -188,6 +200,7 @@
     }
 
     .five-part-service a{
+        position: relative;
         font-size: 18px;
         float: left;
         width: 105px;
@@ -208,6 +221,26 @@
         margin-bottom: 17px;
         font-size: 13px;
     }
+
+    .five-part-service a:before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 9px;
+        width: 64px;
+        height: 1px;
+        background-color: #776d65;
+      }
+     
+    .five-part-servicer a:after {
+       content: '';
+       position: absolute;
+       top: -1px;
+       left: 6px;
+       width: 104px;
+       height: 1px;
+       background-color: #776d65;
+     }
 
     .five-part-ad{
         float: right;
@@ -247,8 +280,16 @@
         color: #cccccc;
     }
 
-    .five-part-ad span{
+    .five-part-ad .two:hover{
+        color: #00eef3;
+    }
+
+    .five-part-ad .five{
         color: #cccccc;
+    }
+
+    .five-part-ad .five:hover{
+        color: #00eef3;
     }
 
     .five-part-ad .one{
@@ -394,6 +435,14 @@
         float: right;
         font-size: 15px;
         margin-top: -40px;
+    }
+
+    .game-notebook-title-button a:hover{
+        color: #00eef3;
+    }
+
+    .game-notebook-title-button span:hover{
+        color: #00eef3;
     }
 
     .game-notebook-title a{
@@ -992,6 +1041,10 @@
     color: #999999;
   }
 
+  .other-service a:hover{
+      color: #00eef3;
+  }
+
   .other-service a{
       color: #999999;
   }
@@ -1050,8 +1103,12 @@
       float: left;
   }
 
+  .footer-link a:hover{
+      color: #00eef3;
+  }
+
   .footer-link .shuxian{
-      margin: 0 8px;
+      margin: 0 3px;
   }
 
   .footer-picture img{
