@@ -1,0 +1,34 @@
+/* 1. 顶部导航 */
+.topnav{
+    width: 100%;
+    height: 175px;
+}
+
+.topnav-left{
+    float: left;
+    margin-top: 30px;
+}
+
+.topnav-right{
+    float: left;
+}
+
+.topnav-right a{
+    font-size: 16px;
+    color: #606060;
+    line-height: 175px;
+}
+
+.one{
+    margin-left: 378px;
+}
+
+.topnav-right a:nth-child(-n+4){
+    margin-right: 30px;
+}
+
+
+/* 2. 中心内容 */
+.big img{
+    width: 1519px;
+}
