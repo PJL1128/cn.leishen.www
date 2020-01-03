@@ -17,10 +17,12 @@
     font-size: 16px;
     color: #606060;
     line-height: 175px;
+    padding: 25px 0;
 }
 
 .one{
-    margin-left: 378px;
+    margin-left: 340px;
+    border-bottom: 2px solid #333;
 }
 
 .topnav-right a:nth-child(-n+4){
@@ -29,6 +31,124 @@
 
 
 /* 2. 中心内容 */
-.big img{
-    width: 1519px;
+.content{
+    position: relative;
+}
+
+.content .small img{
+    position: absolute;
+    top: 125px;
+    left: 628px;
+}
+
+.content .introduce {
+    width: 560px;
+    height: 348px;
+    background-color: #fff;
+    position: absolute;
+    top: 125px;
+    right: 382px;
+    padding: 52px 80px 32px 52px;
+    box-sizing: border-box;
+}
+
+.content .introduce h2{
+    font-size: 26px;
+    color: #9d9d9d;
+    font-weight: 400;
+    font-family: Simsun;
+}
+
+.content .introduce p{
+    font-size: 13px;
+    color: #7c7c7c;
+    line-height: 32px;
+    margin: 20px 0 0;
+    font-family: Simsun;
+}
+
+.content .introduce a{
+    width: 85px;
+    height: 20px;
+    border: 1px solid #f5b834;
+    padding: 10px 20px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-family: Simsun;
+    color: #111;
+}
+
+
+
+
+/* 文字部分 */
+.writing-content{
+    overflow: hidden;
+    height: 400px;
+}
+
+.writing-content .first{
+    width: 390px;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    border-left: 1px solid #b2b2b2;
+}
+
+.writing-content p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 20px;
+    padding-top: 40px;
+    font-family:Simsun;
+}
+
+.writing-content span{
+    display: block;
+    font-size: 14px;
+    margin-top: 25px;
+    font-family:Simsun;
+    line-height: 30px;
+    color: #555;
+}
+
+.writing-content .second{
+    width: 390px;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    border-left: 1px solid #b2b2b2;
+}
+
+.writing-content .third{
+    width: 390px;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    border-left: 1px solid #b2b2b2;
+}
+
+
+
+
+
+/* 底部 */
+.footer{
+    height: 30px;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 30px;
+    color: #7f7f7f;
 }

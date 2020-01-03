@@ -149,7 +149,7 @@
     }
 
     .four-part img{
-        width: 1920px;
+        width: 1903px;
         height: 460px;
         border-top: 1px solid #00eef3;
     }
@@ -157,9 +157,9 @@
     .four-part ul{
         position: absolute;
         width: 234px;
-        height: 460px;
+        height: 461px;
         top: 0px;
-        left: 339px;
+        left: 340px;
         padding-left: 30px;
         background-color: #000;
         opacity: 0.8;
@@ -886,9 +886,10 @@
 
     .fan-meeting-content h2{
         text-align: center;
-        color: #b0b0b0;
+        color: #333;
         margin-top: 33px;
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: normal;
     }
 
 
@@ -941,7 +942,7 @@
     .video-content-movie p{
         margin-top: 33px;
         margin-bottom: 16px;
-        color: #8c8c8c;
+        font-size: 16px;
     }
 
     .video-content-movie span{

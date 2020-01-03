@@ -1,0 +1,148 @@
+.first-picture img{
+    vertical-align: middle;
+}
+
+.content{
+    height: 80px;
+    position: absolute;
+    top: 16px;
+    left: 370px;
+}
+
+.content-picture{
+   float: right;
+   margin-top: -30px;
+}
+
+.content-link a,
+.content-licence span{
+    color: #666;
+}
+
+.content-link{
+    margin-top: 27px;
+    margin-bottom: 6px;
+}
+
+.content-link a{
+    float: left;
+}
+
+.content-link a:hover{
+    color: #00eef3;
+}
+
+.content-link .shuxian{
+    margin: 0 3px;
+}
+
+.content-picture img{
+    width: 68px;
+    height: 26px;
+}
+
+.content-picture .yinyezhizhao{
+    width: 91px;
+    height: 26px;
+    border: 1px solid #e4e4e4;
+}
+
+.content-picture a{
+    margin-right: 26px;
+}
+
+
+.left{
+    position: relative;
+}
+
+.left ul{
+    position: absolute;
+    bottom: -100px;
+    left: 352px;
+    width: 170px;
+    height: 610px;
+    background-color: #4d16f2;
+}
+
+.left li{
+    width: 110px;
+    height: 15px;
+    padding: 6px 16px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 11px;
+}
+
+.left a{
+    display: block;
+    color: #fff;
+}
+
+.second-picture img{
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/* 第三个背景图片 */
+.third-picture{
+    background-image: url(../upload/index4.html/bg.jpg);
+    background-size: 100% 100%;
+    height: 620px;
+}
+
+.third-picture{
+    overflow: hidden;
+    position: relative;
+}
+
+.third-picture .three{
+    position: absolute;
+    top: 40px;
+    right: 390px;
+}
+
+.third-picture a{
+    display: block;
+    float: left;
+    margin-left: 12px;
+}
+
+.third-picture img{
+    width: 282px;
+    height: 178px;
+}
+
+.third-picture span{
+    display: block;
+    width: 160px;
+    height: 40px;
+    background-color: #e92fee;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.third-picture .xitong{
+    position: absolute;
+    bottom: 20px;
+    right: 588px;
+}
+
+.third-picture .chaiji{
+    position: absolute;
+    bottom: 20px;
+    right: 294px;
+}
+
+.third-picture .kaoji{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
