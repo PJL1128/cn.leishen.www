@@ -97,8 +97,14 @@
 }
 
 .third-picture{
-    /* overflow: hidden; */
     position: relative;
+}
+
+.clearfix{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
 }
 
 .third-picture .three{
