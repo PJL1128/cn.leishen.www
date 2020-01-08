@@ -97,7 +97,7 @@
 }
 
 .third-picture{
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
