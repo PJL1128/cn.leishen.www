@@ -91,7 +91,7 @@
 
 /* 第三个背景图片 */
 .third-picture{
-    background-image: url(../upload/index4.html/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: 100% 100%;
     height: 620px;
 }
