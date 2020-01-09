@@ -54,6 +54,10 @@
     background-color: #141414;
 }
 
+.searchnav img{
+    margin-top: 40px;
+}
+
 .searchnav-service{
     position: relative;
     float: right;
@@ -201,11 +205,12 @@
 
     .five-part-service a{
         position: relative;
-        font-size: 18px;
+        font-size: 14px;
         float: left;
         width: 105px;
         height: 76px;
         text-align: center;
+        margin-left: 8px;
     }
 
     .five-part-service i {
@@ -222,24 +227,58 @@
         font-size: 13px;
     }
 
-    .five-part-service a:before {
+    .five-part-service a:nth-child(3):before {
+        content: '';
+    position: absolute;
+    top: 3px;
+    left: 14px;
+    width: 86px;
+    height: 1px;
+    background-color: #373737;
+      }
+
+      .five-part-service a:nth-child(3):after {
+        position: absolute;
+    top: 10px;
+    height: 65px;
+    left: 108px;
+    content: '';
+    width: 0;
+    border-left: solid #373737 1px;
+      }
+
+      .five-part-service a:nth-child(4):before {
         content: '';
         position: absolute;
-        top: 2px;
-        left: 9px;
-        width: 64px;
+        top: 3px;
+        left: 3px;
+        width: 86px;
         height: 1px;
-        background-color: #776d65;
+        background-color: #373737;
       }
+
+      .five-part-service a:nth-child(4){
+        /* border-right: 1px solid #776d65; */
+        margin-top: 10px;
+    }
+
+      /* .five-part-service a:first-child{
+          border-right: 1px solid #776d65;
+      } */
+
+      .five-part-service a:nth-child(3){
+        /* border-right: 1px solid #776d65; */
+        margin-top: 10px;
+    }
      
-    .five-part-servicer a:after {
+    .five-part-service a:nth-child(1):after {
        content: '';
        position: absolute;
-       top: -1px;
-       left: 6px;
-       width: 104px;
-       height: 1px;
-       background-color: #776d65;
+       top: 16px;
+       left: 108px;
+       width: 0px;
+       height: 65px;
+       border-left: solid #373737 1px;
      }
 
     .five-part-ad{
@@ -370,6 +409,11 @@
         height: 340px;
         text-align: center;
     }
+
+    .hot-goods-content a img{
+        height: 160px;
+        margin-top: 40px;
+    }
     
     .hot-goods-content a:nth-child(-n+4){
         margin-right: 14px;
@@ -377,6 +421,8 @@
 
     .hot-goods-content h4{
         margin-bottom: 14px;
+        margin-top: 50px;
+        font-weight: normal;
     }
 
     .hot-goods-content span{
@@ -484,6 +530,11 @@
         margin-left: 14px;
     }
 
+    .game-notebook-content-right a img{
+        height: 160px;
+       margin-top: 30px;
+    }
+
     .game-notebook-content-right a:nth-child(-n+3){
         margin-bottom: 14px;
     }
@@ -491,6 +542,7 @@
     .game-notebook-content-right h4{
         color: #8c8c8c;
         margin-bottom: 13px;
+        font-weight: normal;
     }
 
     .game-notebook-content-right p{
@@ -528,6 +580,14 @@
         float: right;
         font-size: 15px;
         margin-top: -40px;
+    }
+
+    .game-desktop-title-button a:hover{
+        color: #00eef3;
+    }
+
+    .game-desktop-title-button span:hover{
+        color: #00eef3;
     }
 
     .game-desktop-title a{
@@ -572,6 +632,7 @@
     .game-desktop-content-right h4{
         color: #8c8c8c;
         margin-bottom: 13px;
+        font-weight: normal;
     }
 
     .game-desktop-content-right p{
@@ -610,6 +671,14 @@
         float: right;
         font-size: 15px;
         margin-top: -40px;
+    }
+
+    .peripherals-series-title-button a:hover{
+        color: #00eef3;
+    }
+
+    .peripherals-series-title-button span:hover{
+        color: #00eef3;
     }
 
     .peripherals-series-title a{
@@ -654,6 +723,7 @@
     .peripherals-series-content-right h4{
         color: #8c8c8c;
         margin-bottom: 13px;
+        font-weight: normal;
     }
 
     .peripherals-series-content-right p{
@@ -751,6 +821,7 @@
     .value-added-services-content h4{
         color: #8c8c8c;
         margin-top: 25px;
+        font-weight: normal;
     }
 
     .value-added-services-content span{
@@ -975,42 +1046,42 @@
 .sale-service {
     height: 80px;
     background-color: #272727;
-    border-bottom: 1px solid #373737;
+    /* border-bottom: 1px solid #373737; */
     box-sizing: border-box;
     margin-top: 14px;
   }
 
   .sale-service-main{
     height: 80px;
-    padding:  27px 0;
+    /* padding:  27px 0; */
     box-sizing: border-box ;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #373737;
   }
   
-  .sale--service-main a{
+  .sale-service-main a{
     float: left;
-    text-align: center;
+    /* text-align: center; */
     font-size: 16px;
     color: #999999;
     line-height: 80px;
   }
   
-    .sale--service-main .first{
-        margin-left: 62px;
+    .sale-service-main .first{
+        margin-left: 30px;
     }
 
-  .sale--service-main i{
+  .sale-service-main i{
       font-size: 20px;
       vertical-align: middle;
   }
 
-  .sale--service-main .shuxian{
+  .sale-service-main .shuxian{
       color: #373737;
   }
   
-  .sale--service-main span{
-    font-size: 15px;
-    margin-right: 55px;
+  .sale-service-main span{
+    font-size: 18px;
+    margin-right: 45px;
   }
 
 
@@ -1027,7 +1098,7 @@
   
   .other-service dl {
     float: left;
-    margin-right: 50px;
+    margin-right: 70px;
     color: #999999;
   }
   
@@ -1071,12 +1142,12 @@
       margin-right: 34px;
   }
 
-
-  .other-service .shouhou{
-      width: 100px;
-      height: 120px;
-      margin-left: 50px;
+.other-service .fuwuxiang-xinlang{
+    margin-right: 34px;
+    margin-left: 48px;
   }
+
+
 
 
 
